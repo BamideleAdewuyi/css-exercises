@@ -10,3 +10,9 @@
     color: rgb(8, 50, 222);
     font-size: 36px;
 }
+
+#fourth-element {
+    background-color: rgb(55, 247, 49);
+    font-size: 24px;
+    font-weight: bold;
+}
