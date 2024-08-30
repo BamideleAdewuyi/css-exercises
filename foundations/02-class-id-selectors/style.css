@@ -1,3 +1,7 @@
 .odd-numbered {
     background-color: #d9a1de;
+    font-family: "Verdana", "DejaVu Sans", "sans-serif";
   }
+.middle {
+    font-size: 24px;
+}
