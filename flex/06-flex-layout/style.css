@@ -22,7 +22,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
-  padding: 12px;
+  padding: 8px 16px;
 }
 
 input {
@@ -30,11 +30,15 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+  margin-bottom: 16px;
 }
 
 ul {
+  display: flex;
   list-style-type: none;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
+  gap: 16px
 }
 
 a {
@@ -44,40 +48,36 @@ a {
 
 .content {
   display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
-  justify-items: ce;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
-  padding: 8px;
-  margin-bottom: auto;
+  padding: 16px;
 }
 
 .footer {
   display: flex;
   justify-content: space-between;
   background: #eeeeee;
-  padding: 2px;
-  margin-top: auto;
+  padding: 16px;
 }
 
 .content {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
+  flex-grow: 1;
   gap: 18px;
 }
 
-.left-links {
+.left-links, .right-links {
   display: flex;
-  gap: 15px;
-  align-content: flex-start;
-  
-}
-
-.right-links {
-  display: flex;
-  justify-content: flex-end;
-  gap: 15px;
+  gap: 16px;
+  align-items: center;
 }
