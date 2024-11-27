@@ -32,6 +32,7 @@
 
 ul {
   display: grid;
+  list-style-type: none;
 }
 
 .sidebar {
