@@ -38,7 +38,6 @@ ul {
   display: grid;
   gap: 50px;
   place-items: center;
-  grid-column: 1 / 2;
 }
 
 .sidebar .photo {
