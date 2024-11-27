@@ -34,6 +34,7 @@ ul {
 
 .sidebar {
   background-color: #C50208;
+  display: grid;
 }
 
 .sidebar .photo {
