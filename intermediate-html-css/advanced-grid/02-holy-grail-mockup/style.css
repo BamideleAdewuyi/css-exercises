@@ -52,6 +52,9 @@ ul {
   font-size: 12px;
   font-weight: normal;
   border-radius: 10px;
+}
+
+.side-content, .photo {
   display: grid;
   align-items: center;
 }
