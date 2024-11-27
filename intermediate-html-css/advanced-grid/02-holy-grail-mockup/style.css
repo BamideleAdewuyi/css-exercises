@@ -79,6 +79,12 @@ ul {
   background-color: #C50208;
 }
 
+.nav ul {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
 .nav ul li {
   font-size: 16px;
   text-transform: uppercase;
