@@ -16,6 +16,7 @@
   font-family: Helvetica;
   font-weight: bold;
   color: white;
+  grid-template-columns: 1fr 4fr;
 }
 
 .header {
