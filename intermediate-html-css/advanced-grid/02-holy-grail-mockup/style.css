@@ -33,6 +33,11 @@
   align-self: center;
 }
 
+.menu ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
 .menu ul,
 .menu li {
   font-size: 16px;
