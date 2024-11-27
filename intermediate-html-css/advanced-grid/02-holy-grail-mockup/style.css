@@ -51,10 +51,7 @@ ul {
   background-color: #C50208;
   display: grid;
   gap: 50px;
-  place-items: center;
   grid-row: 2 / 4;
-  align-items: stretch;
-  justify-items: stretch;
 }
 
 .sidebar .photo {
