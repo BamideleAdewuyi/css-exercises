@@ -29,6 +29,10 @@
   justify-self: start;
 }
 
+.menu {
+  align-self: center;
+}
+
 .menu ul,
 .menu li {
   font-size: 16px;
