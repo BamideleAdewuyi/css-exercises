@@ -16,12 +16,12 @@
   font-family: Helvetica;
   font-weight: bold;
   color: white;
-  grid-template-columns: 1fr 4fr;
 }
 
 .header {
   background-color: #393f4d;
   display: grid;
+  grid-template-columns: 1fr 4fr;
 }
 
 .menu ul,
@@ -38,6 +38,7 @@ ul {
   display: grid;
   gap: 50px;
   place-items: center;
+  grid-column: 1 / 2;
 }
 
 .sidebar .photo {
