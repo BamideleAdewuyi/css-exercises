@@ -84,6 +84,10 @@ ul {
   text-align: center;
 }
 
+.card {
+  height: 200px;
+}
+
 .card p {
   color: black;
   font-weight: normal;
