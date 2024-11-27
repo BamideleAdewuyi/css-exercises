@@ -38,6 +38,7 @@ html {
 
 .article {
   background-color: #7E1DC3;
+  grid-row: 3 / 4;
 }
 
 .footer {
