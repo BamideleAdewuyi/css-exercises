@@ -25,6 +25,10 @@
   grid-template-columns: 1fr 2fr;
 }
 
+.logo {
+  justify-self: start;
+}
+
 .menu ul,
 .menu li {
   font-size: 16px;
