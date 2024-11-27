@@ -28,6 +28,10 @@
   font-size: 16px;
 }
 
+.menu {
+  display: grid;
+}
+
 .sidebar {
   background-color: #C50208;
 }
