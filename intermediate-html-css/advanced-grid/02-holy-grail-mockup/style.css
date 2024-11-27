@@ -36,6 +36,7 @@ ul {
   background-color: #C50208;
   display: grid;
   gap: 50px;
+  place-items: center;
 }
 
 .sidebar .photo {
